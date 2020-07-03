@@ -17,3 +17,9 @@ if __name__ == "__main__":
     while(salir in ["no", "No", "NO"]):
         opciones()
         salir = input("¿Deseas salir? ")
+    
+    diccionario = [
+        {"nombre":"Fulanito", "apellido":"Pérez"},
+        {"nombre":"John", "apellido":"Doe"}
+        ]
+    print(diccionario)
